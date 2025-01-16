@@ -3999,9 +3999,6 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
-.navbar-brand:hover, .navbar-brand:focus {
-  color: var(--bs-navbar-brand-hover-color);
-}
 
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
@@ -12052,14 +12049,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-
-.index{
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

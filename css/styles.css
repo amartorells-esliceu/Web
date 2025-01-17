@@ -13,7 +13,7 @@ body, html {
     background-image: url('../img/bg_image.jpeg');
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100vh;
     position: relative;
 }
 
@@ -21,7 +21,7 @@ body, html {
     background-image: url('../img/bg-image-blog.jpeg');
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100vh;
     position: relative;
 }
 
@@ -29,12 +29,12 @@ body, html {
     background-image: url('../img/bg-new.jpeg');
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100vh;
     position: relative;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 0.5rem 1rem;
     margin: 0;
     border: none;
@@ -44,32 +44,31 @@ body, html {
 .overlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .logo {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
-    font-size: 24px; 
+    font-size: 24px;
     color: #F8F9FA;
     margin: 0;
     padding: 0;
 }
 
 .navbar .navbar-brand {
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .navbar-nav {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
-
 
 .nav_main_item a {
     color: #495057;
     margin-right: 15px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -82,7 +81,6 @@ body, html {
     color: #D4A373;
 }
 
-
 .topics-bar {
     display: flex;
     justify-content: flex-start;
@@ -90,16 +88,16 @@ body, html {
 }
 
 .topics-bar .main-item.all {
-    margin-left: 0; 
+    margin-left: 0;
 }
 
 .all {
-    color: #D4A373; 
+    color: #D4A373;
 }
 
 .topics-bar .main-item {
     font-family: 'Lora', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 400;
     color: #6C757D;
     text-decoration: none;
@@ -108,7 +106,6 @@ body, html {
 .topics-bar .view-all {
     margin-left: auto;
 }
-
 
 .blog-row1, .blog-row2 {
     display: flex;
@@ -128,7 +125,7 @@ body, html {
     top: 278px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
-    left: 70px; 
+    left: 70px;
 }
 
 .category p {
@@ -149,11 +146,10 @@ body, html {
     top: 315px;
     font-family: 'Lora', serif;
     font-weight: 700;
-    font-size: 36px; 
+    font-size: 36px;
     line-height: 46px;
     color: #FFFFFF;
 }
-
 
 .details {
     position: absolute;
@@ -166,23 +162,22 @@ body, html {
 
 .details .date {
     font-family: 'Lora', serif;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 15px;
     font-weight: 400;
     color: #E5E5E5;
 }
 
-
 .line {
     width: 30px;
     height: 0;
     border: 1px solid #E5E5E5;
-    margin-top: -15px; 
+    margin-top: -15px;
 }
 
 .details .description {
     font-family: 'Lora', serif;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     color: #E5E5E5;
@@ -192,14 +187,13 @@ body, html {
 
 .details .additional-text {
     font-family: 'Lora', serif;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     color: #E5E5E5;
     width: 420px;
     height: 40px;
 }
-
 
 .pagination {
     position: absolute;
@@ -222,7 +216,7 @@ body, html {
 
 .menu-item {
     font-family: 'Lora', serif;
-    font-size: 16px; 
+    font-size: 16px;
     color: #E5E5E5;
     text-transform: uppercase;
     margin-right: 15px;
@@ -254,6 +248,11 @@ body, html {
     color: #FFFF;
 }
 
+.social-icons-new{
+    display: flex;
+    gap: 10px;
+}
+
 .social-icons-new i {
     font-size: 18px;
     color: #495057;
@@ -274,7 +273,7 @@ body, html {
 
 h2 {
     color: #495057;
-    font-size: 36px; 
+    font-size: 36px;
     font-family: Lora, sans-serif;
     font-weight: 700;
 }
@@ -282,7 +281,7 @@ h2 {
 .main-item {
     text-decoration: none;
     color: #495057;
-    font-size: 16px; 
+    font-size: 16px;
     font-family: Lora, sans-serif;
     font-weight: 700;
 }
@@ -343,14 +342,14 @@ h2 {
     color: #495057;
     font-family: Lora, sans-serif;
     font-weight: 700;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .blog-text {
     color: #6C757D;
     font-family: Lora, sans-serif;
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .blog-date {
@@ -362,8 +361,7 @@ h2 {
 
 .big_post {
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), 
-    rgba(0, 0, 0, var(--opacidad-negro))), url("../img/big_post.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/big_post.jpeg");
     margin-top: 200px;
     height: 750px;
     position: relative;
@@ -371,8 +369,7 @@ h2 {
 
 .big_post-blog {
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), 
-    rgba(0, 0, 0, var(--opacidad-negro))), url("../img/bg-image-Big-Post-blog.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/bg-image-Big-Post-blog.jpeg");
     background-position: center top;
     background-size: cover;
     margin-top: 200px;
@@ -397,9 +394,9 @@ h2 {
     border-radius: 5px;
 }
 
-.description-blog{
+.description-blog {
     font-family: 'Lora', serif;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 20px;
     font-weight: 700;
     color: #E5E5E5;
@@ -407,8 +404,8 @@ h2 {
     height: 40px;
 }
 
-.big-var{
-    border-bottom:1px solid #C4C4C4;
+.big-var {
+    border-bottom: 1px solid #C4C4C4;
     padding-bottom: 35px;
 }
 
@@ -423,7 +420,7 @@ h2 {
 h3 {
     font-family: Lora, sans-serif;
     font-weight: 700;
-    font-size: 18px; 
+    font-size: 18px;
     color: #FFFFFF;
 }
 
@@ -496,14 +493,14 @@ h3 {
 .editors_pick_content h3 {
     font-family: Lora, sans-serif;
     font-weight: 700;
-    font-size: 18px; 
+    font-size: 18px;
     color: #FFFFFF;
 }
 
 .editors_pick_content p {
     font-family: Lora, sans-serif;
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 14px;
     color: #E5E5E5;
 }
 
@@ -579,7 +576,7 @@ h3 {
 .title_big_post {
     font-family: 'Lora', serif;
     font-weight: 700;
-    font-size: 36px; 
+    font-size: 36px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -587,7 +584,7 @@ h3 {
 .text_big_post {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 14px;
     color: #E5E5E5;
     margin-bottom: 20px;
 }
@@ -599,7 +596,7 @@ h3 {
     color: #E5E5E5;
 }
 
-.editor_pick:hover{
+.editor_pick:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
@@ -632,6 +629,7 @@ h3 {
     color: #6C757D;
     font-size: 18px;
 }
+
 .info-new {
     background-color: #FFFFFF;
     padding: 50px 70px;
@@ -681,7 +679,7 @@ h3 {
     margin: 20px 0;
 }
 
-.hover-tag:hover{
+.hover-tag:hover {
     cursor: pointer;
     background-color: #E5E5E5;
 }
@@ -728,11 +726,6 @@ h3 {
 }
 
 .info-new .author-blog .social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons-new{
     display: flex;
     gap: 10px;
 }

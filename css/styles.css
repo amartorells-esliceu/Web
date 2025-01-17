@@ -254,6 +254,20 @@ body, html {
     color: #FFFF;
 }
 
+.social-icons-new i {
+    font-size: 18px;
+    color: #495057;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-icons-new i:hover {
+    color: #000000;
+}
+
+.social-icons-new a:hover {
+    color: #000000;
+}
+
 .blog-regular {
     margin-left: 70px;
 }
@@ -391,6 +405,11 @@ h2 {
     color: #E5E5E5;
     width: 420px;
     height: 40px;
+}
+
+.big-var{
+    border-bottom:1px solid #C4C4C4;
+    padding-bottom: 35px;
 }
 
 .fashion p {
@@ -637,11 +656,15 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    gap: 20px;
+    position: relative;
 }
 
 .info-new .post .img_post img {
     width: 48%;
     border-radius: 10px;
+    width: 420px;
+    height: 300px;
 }
 
 .info-new .post h2 {
@@ -658,9 +681,14 @@ h3 {
     margin: 20px 0;
 }
 
+.hover-tag:hover{
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
 .info-new .tag-button {
-    background-color: #495057;
-    color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #6C757D;
     padding: 5px 10px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
@@ -700,6 +728,11 @@ h3 {
 }
 
 .info-new .author-blog .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons-new{
     display: flex;
     gap: 10px;
 }

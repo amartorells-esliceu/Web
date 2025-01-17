@@ -284,8 +284,8 @@ h2 {
 }
 
 .blog-home img {
-    width: 100%;
-    height: 280px;
+    width: 420%;
+    height: 300px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -381,6 +381,16 @@ h2 {
     margin-left: 44.5%;
     background-color: #FFFFFF26;
     border-radius: 5px;
+}
+
+.description-blog{
+    font-family: 'Lora', serif;
+    font-size: 14px; 
+    line-height: 20px;
+    font-weight: 700;
+    color: #E5E5E5;
+    width: 420px;
+    height: 40px;
 }
 
 .fashion p {

@@ -433,7 +433,9 @@ h3 {
 
 .blog_metro_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
 }
 
 .editors_pick_1 {
@@ -467,7 +469,7 @@ h3 {
 .editors_pick_1-blog {
     background-image: url(../img/editors_pick_1-blog.jpeg);
     background-size: cover;
-    width: 420px;
+    width: 640px;
     height: 350px;
     border-radius: 5px;
     text-align: center;
@@ -477,7 +479,7 @@ h3 {
 .editors_pick_2-blog {
     background-image: url(../img/editors_pick_2-blog.jpeg);
     background-size: cover;
-    width: 420px;
+    width: 640px;
     height: 350px;
     border-radius: 5px;
     position: relative;
@@ -656,6 +658,7 @@ h3 {
     margin: 20px 0;
     gap: 20px;
     position: relative;
+    border: none;
 }
 
 .info-new .post .img_post img {
